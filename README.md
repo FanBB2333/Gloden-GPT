@@ -1,5 +1,5 @@
 
-<div align=center ><img src="resources/logo.png" width="20%" /></div>
+<div align=center ><img src="resources/logo_bg.jpg" width="20%" /></div>
 
 
 # 金融垂直大模型【智海-金磐大模型】
