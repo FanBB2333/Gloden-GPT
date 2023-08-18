@@ -1,5 +1,5 @@
 
-<div align=center style="zoom:10%;"><img src="resources/logo.png"  /></div>
+<div align=center ><img src="resources/logo.png" width="20%" /></div>
 
 
 # 智海-金磐大模型
