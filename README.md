@@ -1,4 +1,6 @@
-<img src="resources/logo.png" alt="title" style="zoom:20%;" />
+
+<div align=center><img src="resources/logo.png" style="zoom:10%;" /></div>
+
 
 # 智海-金磐大模型
 
@@ -6,9 +8,9 @@
 
 
 ## :scroll: 项目背景
-智海-录问是由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型。核心思想：以“普法共享和司法效能提升”为目标，从推动法律智能化体系入司法实践、数字化案例建设、虚拟法律咨询服务赋能等方面提供支持，形成数字化和智能化的司法基座能力。
+**智海-录问**是由浙江大学、阿里巴巴达摩院以及华院计算三家单位共同设计研发的法律大模型。核心思想：以“普法共享和司法效能提升”为目标，从推动法律智能化体系入司法实践、数字化案例建设、虚拟法律咨询服务赋能等方面提供支持，形成数字化和智能化的司法基座能力。
 
-下面的介绍从模型训练、模型增强以及模型评测三个方面展开。
+下面的介绍从**模型训练**、**模型增强**以及**模型评测**三个方面展开。
 
 ## :computer: 模型训练
 
@@ -102,7 +104,7 @@
 ## :chart_with_upwards_trend: 模型增强
 
 ### :books: 知识库构建
-![Alt text](pics/知识库构建.png)
+<!-- ![Alt text](pics/知识库构建.png) -->
 我们目前一共收集了5种类型的知识库，包括法条类、案例类、模板类、书籍类以及法律考试类。
 1. **知识库收集与处理**
 - 法条库
@@ -126,7 +128,7 @@
 - 任何一个知识点都是一个[key, value]的pair，其中key是该知识点的内容简介，用于检索，而value是知识点的具体内容，用于输入到模型中作为参考。
 
 ### :globe_with_meridians: 知识增强
-![Alt text](pics/知识增强.png)
+<!-- ![Alt text](pics/知识增强.png) -->
 1. **知识定位**
 - 意图识别
 不同问题需要不同类型的知识库来辅助问答，首先需要识别出问题意图获取哪些知识。我们通过问题中的关键词和上述五种类型知识库的特征的关键词匹配，以此识别出问题涉及的知识类型并用对应知识库辅助。
@@ -147,7 +149,7 @@
 
 ## :memo: 参考文献
 
-Wei, Bin, et al. "A full-process intelligent trial system for smart court." Frontiers of Information Technology & Electronic Engineering 23.2 (2022): 186-206.
+- Wei, Bin, et al. "A full-process intelligent trial system for smart court." Frontiers of Information Technology & Electronic Engineering 23.2 (2022): 186-206.
 
 
 
